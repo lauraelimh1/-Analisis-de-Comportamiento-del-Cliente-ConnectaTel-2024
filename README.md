@@ -45,13 +45,11 @@ Puedes visualizar y ejecutar este análisis de dos formas:
 ## Opción 1: Google Colab (Recomendado)
 
 1. Haz clic en el siguiente botón:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lauraelimm1/-Análisis-de-Comportamiento-del-Cliente-ConnectaTel-2024/blob/main/S7%20Version-Estudiante-Project-ConnectaTel.ipynb)
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lauraelimh1/-Analisis-de-Comportamiento-del-Cliente-ConnectaTel-2024/blob/main/S7%20Version-Estudiante-Project-ConnectaTel.ipynb)
 
-3. Sube los archivos .csv a la carpeta de archivos de la sesión en Colab.
+2. Sube los archivos .csv a la carpeta de archivos de la sesión en Colab.
 
-4. Ejecuta todas las celdas (Ctrl + F9).
+3. Ejecuta todas las celdas (Ctrl + F9).
 
 ## Opción 2: Localmente (Jupyter Notebook)
 
