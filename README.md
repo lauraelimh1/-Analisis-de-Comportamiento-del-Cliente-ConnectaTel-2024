@@ -67,7 +67,7 @@ pip install pandas numpy matplotlib seaborn
 
 Para replicar los resultados obtenidos en el reporte:
 
-1. Carga de Datos: Asegúrate de que los archivos plans.csv, users_latam.csv y usage.csv estén en la misma ruta que el notebook.
+1. Carga de Datos: Asegúrate de que los archivos .csv, estén en la misma ruta que el notebook.
 
 2. Preprocesamiento: Ejecuta las celdas de limpieza para tratar los valores -999 y las fechas del año 2026.
 
