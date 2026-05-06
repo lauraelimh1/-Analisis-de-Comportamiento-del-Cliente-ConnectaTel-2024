@@ -2,7 +2,7 @@
 
 Análisis de datos en Python para ConnectaTel utilizando Pandas y Seaborn. El proyecto integra tres fuentes de datos para identificar patrones de consumo, limpiar inconsistencias (valores sentinel y fechas), detectar outliers y segmentar clientes por edad  y comportamiento, transformando métricas en insights para optimizar la oferta comercial.
 
-__🎯 Objetivo del Proyecto__
+# __🎯 Objetivo del Proyecto__
 
 Este proyecto tiene como fin analizar el comportamiento de los clientes de ConnectaTel (empresa de telecomunicaciones en México y Colombia). El análisis busca transformar datos crudos de uso de servicios móviles (llamadas y mensajes) en insights estratégicos para:
 
@@ -12,7 +12,7 @@ Este proyecto tiene como fin analizar el comportamiento de los clientes de Conne
 
 * Segmentar a los usuarios para optimizar la oferta comercial y mejorar la retención (churn).
 
-__📂 Datasets Utilizados__
+# __📂 Datasets Utilizados__
 
 El análisis integra tres fuentes de datos principales:
 
@@ -22,7 +22,7 @@ El análisis integra tres fuentes de datos principales:
 
 3. usage.csv: Actividad real de los usuarios (Duración de llamadas y longitud de mensajes).
 
-__🛠️ Etapas del Análisis__
+# __🛠️ Etapas del Análisis__
 
 El proyecto sigue un flujo de trabajo de Ciencia de Datos estructurado:
 
@@ -38,11 +38,11 @@ El proyecto sigue un flujo de trabajo de Ciencia de Datos estructurado:
 
 6. Insights Ejecutivos: Traducción de hallazgos técnicos en recomendaciones de negocio.
 
-__🚀 Cómo ejecutar el Proyecto__
+# __🚀 Cómo ejecutar el Proyecto__
 
 Puedes visualizar y ejecutar este análisis de dos formas:
 
-# Opción 1: Google Colab (Recomendado)
+## Opción 1: Google Colab (Recomendado)
 
 1. Haz clic en el siguiente botón (si tienes configurado el enlace): 
 
@@ -50,7 +50,7 @@ Puedes visualizar y ejecutar este análisis de dos formas:
 
 3. Ejecuta todas las celdas (Ctrl + F9).
 
-# Opción 2: Localmente (Jupyter Notebook)
+## Opción 2: Localmente (Jupyter Notebook)
 
 1. Clona este repositorio:
 
@@ -62,7 +62,7 @@ pip install pandas numpy matplotlib seaborn
 
 3. Abre Jupyter Notebook o VS Code y ejecuta S7 Version-Estudiante-Project-ConnectaTel.ipynb.
 
-📋 Guía de Reproducción
+# __📋 Guía de Reproducción__
 
 Para replicar los resultados obtenidos en el reporte:
 
