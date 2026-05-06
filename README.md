@@ -1,14 +1,15 @@
 # -Analisis-de-Comportamiento-del-Cliente-ConnectaTel-2024
 Análisis de datos en Python para ConnectaTel utilizando Pandas y Seaborn. El proyecto integra tres fuentes de datos para identificar patrones de consumo, limpiar inconsistencias (valores sentinel y fechas), detectar outliers y segmentar clientes por edad  y comportamiento, transformando métricas en insights para optimizar la oferta comercial.
 
-🎯 Objetivo del Proyecto
+*🎯 Objetivo del Proyecto*
+
 Este proyecto tiene como fin analizar el comportamiento de los clientes de ConnectaTel (empresa de telecomunicaciones en México y Colombia). El análisis busca transformar datos crudos de uso de servicios móviles (llamadas y mensajes) en insights estratégicos para:
 
-Identificar patrones de consumo por edad y plan.
+* Identificar patrones de consumo por edad y plan.
 
-Detectar comportamientos atípicos (outliers) que sugieran fraude o necesidades especiales.
+* Detectar comportamientos atípicos (outliers) que sugieran fraude o necesidades especiales.
 
-Segmentar a los usuarios para optimizar la oferta comercial y mejorar la retención (churn).
+* Segmentar a los usuarios para optimizar la oferta comercial y mejorar la retención (churn).
 
 📂 Datasets Utilizados
 El análisis integra tres fuentes de datos principales:
