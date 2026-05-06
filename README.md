@@ -1,7 +1,8 @@
 # -Analisis-de-Comportamiento-del-Cliente-ConnectaTel-2024
+
 Análisis de datos en Python para ConnectaTel utilizando Pandas y Seaborn. El proyecto integra tres fuentes de datos para identificar patrones de consumo, limpiar inconsistencias (valores sentinel y fechas), detectar outliers y segmentar clientes por edad  y comportamiento, transformando métricas en insights para optimizar la oferta comercial.
 
-(🎯 Objetivo del Proyecto)
+__🎯 Objetivo del Proyecto__
 
 Este proyecto tiene como fin analizar el comportamiento de los clientes de ConnectaTel (empresa de telecomunicaciones en México y Colombia). El análisis busca transformar datos crudos de uso de servicios móviles (llamadas y mensajes) en insights estratégicos para:
 
@@ -11,45 +12,50 @@ Este proyecto tiene como fin analizar el comportamiento de los clientes de Conne
 
 * Segmentar a los usuarios para optimizar la oferta comercial y mejorar la retención (churn).
 
-📂 Datasets Utilizados
+__📂 Datasets Utilizados__
+
 El análisis integra tres fuentes de datos principales:
 
-plans.csv: Detalle de los planes (Precios, minutos/GB incluidos y costos adicionales).
+1. plans.csv: Detalle de los planes (Precios, minutos/GB incluidos y costos adicionales).
 
-users_latam.csv: Información demográfica de los clientes (Edad, ciudad, fecha de registro, plan contratado).
+2. users_latam.csv: Información demográfica de los clientes (Edad, ciudad, fecha de registro, plan contratado).
 
-usage.csv: Actividad real de los usuarios (Duración de llamadas y longitud de mensajes).
+3. usage.csv: Actividad real de los usuarios (Duración de llamadas y longitud de mensajes).
 
-🛠️ Etapas del Análisis
+__🛠️ Etapas del Análisis__
+
 El proyecto sigue un flujo de trabajo de Ciencia de Datos estructurado:
 
-Exploración de Datos (EDA): Identificación de estructuras y tipos de variables.
+1. Exploración de Datos (EDA): Identificación de estructuras y tipos de variables.
 
-Control de Calidad y Limpieza: Tratamiento de valores sentinel (como el -999 en edad), manejo de nulos lógicos, corrección de fechas fuera de rango y estandarización.
+2. Control de Calidad y Limpieza: Tratamiento de valores sentinel (como el -999 en edad), manejo de nulos lógicos, corrección de fechas fuera de rango y estandarización.
 
-Análisis Estadístico: Cálculo de medidas de tendencia central y dispersión para entender el comportamiento típico y extremo.
+3. Análisis Estadístico: Cálculo de medidas de tendencia central y dispersión para entender el comportamiento típico y extremo.
 
-Visualización de Outliers: Uso de Boxplots e Histogramas para detectar patrones inusuales.
+4. Visualización de Outliers: Uso de Boxplots e Histogramas para detectar patrones inusuales.
 
-Segmentación: Creación de perfiles de clientes basados en el nivel de uso y demografía.
+5. Segmentación: Creación de perfiles de clientes basados en el nivel de uso y demografía.
 
-Insights Ejecutivos: Traducción de hallazgos técnicos en recomendaciones de negocio.
+6. Insights Ejecutivos: Traducción de hallazgos técnicos en recomendaciones de negocio.
 
-🚀 Cómo ejecutar el Proyecto
+__🚀 Cómo ejecutar el Proyecto__
+
 Puedes visualizar y ejecutar este análisis de dos formas:
 
-Opción 1: Google Colab (Recomendado)
-Haz clic en el siguiente botón (si tienes configurado el enlace): 
+# Opción 1: Google Colab (Recomendado)
 
-Sube los archivos .csv a la carpeta de archivos de la sesión en Colab.
+1. Haz clic en el siguiente botón (si tienes configurado el enlace): 
 
-Ejecuta todas las celdas (Ctrl + F9).
+2. Sube los archivos .csv a la carpeta de archivos de la sesión en Colab.
 
-Opción 2: Localmente (Jupyter Notebook)
-Clona este repositorio:
+3. Ejecuta todas las celdas (Ctrl + F9).
+
+# Opción 2: Localmente (Jupyter Notebook)
+
+1. Clona este repositorio:
 
 Bash
-git clone https://github.com/[TU_USUARIO]/[NOMBRE_REPOSITORIO].git
+git clone https://github.com/lauraelimm1/-Analisis.git
 Instala las dependencias necesarias:
 
 Bash
