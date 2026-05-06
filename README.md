@@ -54,21 +54,22 @@ Puedes visualizar y ejecutar este análisis de dos formas:
 
 1. Clona este repositorio:
 
-Bash
-git clone https://github.com/lauraelimm1/-Analisis.git
-Instala las dependencias necesarias:
+git clone https://github.com/lauraelimm1/-Análisis-de-Comportamiento-del-Cliente-ConnectaTel-2024.git
 
-Bash
+2. Instala las dependencias necesarias:
+
 pip install pandas numpy matplotlib seaborn
-Abre Jupyter Notebook o VS Code y ejecuta S7 Version-Estudiante-Project-ConnectaTel.ipynb.
+
+3. Abre Jupyter Notebook o VS Code y ejecuta S7 Version-Estudiante-Project-ConnectaTel.ipynb.
 
 📋 Guía de Reproducción
+
 Para replicar los resultados obtenidos en el reporte:
 
-Carga de Datos: Asegúrate de que los archivos plans.csv, users_latam.csv y usage.csv estén en la misma ruta que el notebook.
+1. Carga de Datos: Asegúrate de que los archivos plans.csv, users_latam.csv y usage.csv estén en la misma ruta que el notebook.
 
-Preprocesamiento: Ejecuta las celdas de limpieza para tratar los valores -999 y las fechas del año 2026.
+2. Preprocesamiento: Ejecuta las celdas de limpieza para tratar los valores -999 y las fechas del año 2026.
 
-Análisis: Las funciones de visualización generarán automáticamente los gráficos de distribución que sustentan el análisis de segmentos.
+3. Análisis: Las funciones de visualización generarán automáticamente los gráficos de distribución que sustentan el análisis de segmentos.
 
-Resultados: Dirígete a la sección final del notebook para leer las conclusiones sobre las oportunidades comerciales detectadas.
+4. Resultados: Dirígete a la sección final del notebook para leer las conclusiones sobre las oportunidades comerciales detectadas.
