@@ -16,7 +16,7 @@ Este proyecto tiene como fin analizar el comportamiento de los clientes de Conne
 
 El análisis integra tres fuentes de datos principales:
 
-1. plans.csv: Detalle de los planes (Precios, minutos/GB incluidos y costos adicionales).
+1. plans.csv: Detalle de los planes de telefonía (Precios, minutos/GB incluidos y costos adicionales).
 
 2. users_latam.csv: Información demográfica de los clientes (Edad, ciudad, fecha de registro, plan contratado).
 
